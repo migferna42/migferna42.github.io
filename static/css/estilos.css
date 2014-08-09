@@ -1,27 +1,24 @@
-.u-title{
-}
-
-.Footer{
-
-}
-
-.Header{
-
-}
-
-.Header-imageContainer{
-
-}
-
 .MainMenu{
-
+	background: #1E1E1E;
+	height: 3.75em;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
 }
 
-.Profile{
-
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item{
+	display: inline-block;
 }
 
-.Work{
-
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
 }
-
