@@ -119,8 +119,9 @@
 	border-radius: 2em;
 	border: none;
 	display: block;
-	padding: .5em;
 	margin: 0 auto 1em;
+	outline: 0;
+	padding: .5em;
 }
 
 .Footer-button{
