@@ -1,3 +1,13 @@
+/* Utilidades */
+.u-title{
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF; 
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+/* MainMenu */
 .MainMenu{
 	background: rgba(30,30,30,0.9);
 	height: 3.75em;
@@ -7,7 +17,6 @@
 	text-align: center;
 	top: 0;
 }
-
 .MainMenu-list{
 	margin: 0;
 	padding: 0;
@@ -15,7 +24,6 @@
 .MainMenu-item{
 	display: inline-block;
 }
-
 .MainMenu-link{
 	color: #00DBFF;
 	text-decoration: none;
@@ -23,6 +31,7 @@
 	margin-right: 1.5em;
 }
 
+/* Header */
 .Header{
 	margin-top: 3.75em;
 	background-image: url('../images/header.jpg');
@@ -32,29 +41,37 @@
 	text-align: center;
 	padding: 1.2em 0;
 }
-
 .Header-imageContainer{
 	margin: 0;
 }
-
 .Header-image{
 	border: 5px solid black;
 	border-radius: 50%
 }
-
 .Header-name,
 .Header-link{
 	color: white;
 }
-
 .Header-link{
 	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 }
-
 .Header-name{
 	font-size: 1.5em;
 	font-weight: 300;
 	margin: 0
+}
+
+/* Profile */
+.Profile{
+	text-align: center;
+}
+.Profile-link{
+	background: orange;
+	border-radius: 2em;
+	color: white;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
 }
