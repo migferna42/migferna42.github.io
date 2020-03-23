@@ -1,0 +1,21 @@
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+article {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
