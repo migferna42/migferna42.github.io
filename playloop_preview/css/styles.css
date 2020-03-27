@@ -1,92 +1,123 @@
-article {
-    display: flex;
-    margin: 40px;
-    padding: 40px 40px;
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 strong{
+    color: #05FFB8;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
-article div {
-    width: 25%;
-}
-
-article figure {
-    width: 75%;
-}
-
-article h2, article p {
+footer {
+    color: white;
+    background-color: black;
+    padding: 1em;
     text-align: center;
 }
 
-body {
-    background-color: #eeeeee;
-    margin: 0;
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 8px 0 0 0;
+    color: white;
+    display: flex;
+    background-color: rgba(0,0,0, 0.4);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header img{
+    height: 40px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: none;
 }
 
 ul {
     margin: 0;
     padding: 0;
-}
-
-figure {
-    margin: 0;
-}
-
-.logo img{
-    padding: 3px 50px;
-    width: 180px;
-    height: 40px;
-}
-
-.menu-list-item{
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 10px;
-    margin: 0 10px;
-}
-
-.menu-list-item a{
-    display: flex;
-    align-items: center;
-    height: 40px;
-    padding: 0 10px;
-}
-
-.info-consoles {
-    background-color: white;
-}
-
-.menu-list-item-button {
-    border: 2px solid white;
-    border-radius: 5px;
-    height: 46px;
-}
-
-h2 strong {
-    color: #05FFB8;
-}
-
-article {
-    background-color: white;
-}
-
-header {
-    padding: 3px 40px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-}
-
-header ul {
-    display: flex;
     list-style: none;
+}
+
+video{
+    width: 100%;
+}
+
+.info article{
+    padding: 0 1em;
+}
+
+.info h2{
+    text-align: center;
+}
+
+.more_info li{
+    display: inline;
+}
+
+.more_info li a{
+    text-decoration: underline;
+}
+
+.product{
+    position: relative;
+}
+
+.product-details {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 90%;
+    padding: 60px 20px;
+}
+
+.product-details a{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to right,#05E8A8,#17F6FF);
+    padding: 0.5em 1.5em;
+    margin-top: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.questions {
+    background-color: gray;
+}
+
+.questions a{
+    display: block;
+}
+
+.social li{
+    display: inline;
 }
