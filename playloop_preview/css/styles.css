@@ -112,10 +112,42 @@ video{
 
 .questions {
     background-color: gray;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .questions a{
-    display: block;
+    padding: 1em;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.questions a:first-child{
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.questions a:last-child{
+    background: linear-gradient(to right, #05e8a8, #17f6ff);
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+.social{
+    padding-bottom: 2.5em;
+}
+
+footer hr{
+    background: linear-gradient(to right,#05E8A8,#17F6FF);
+    height: 4px;
+}
+
+footer .more_info {
+    margin-top: 1em 0;
 }
 
 .social li{
